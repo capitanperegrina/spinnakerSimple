@@ -1,0 +1,16 @@
+com/capitanperegrina/common/servicios/ParamsService.class
+com/capitanperegrina/common/modelo/validator/impl/BooleanParamValidator.class
+com/capitanperegrina/common/modelo/entidad/tabla/pk/ParamsPKPOJO.class
+com/capitanperegrina/common/modelo/entidad/tabla/SocialPOJO.class
+com/capitanperegrina/common/modelo/dao/rowmapper/ParamsRowMapper.class
+com/capitanperegrina/common/modelo/entidad/tabla/ParamsPOJO.class
+com/capitanperegrina/common/modelo/validator/impl/URLParamValidator.class
+com/capitanperegrina/common/modelo/dao/ParamsDao.class
+com/capitanperegrina/common/modelo/dao/SocialDao.class
+com/capitanperegrina/common/modelo/dao/rowmapper/SocialRowMapper.class
+com/capitanperegrina/common/ui/bean/ParamsUI.class
+com/capitanperegrina/common/modelo/dao/impl/ParamsDaoImpl.class
+com/capitanperegrina/common/servicios/impl/ParamsServiceImpl.class
+com/capitanperegrina/common/modelo/validator/impl/MailParamValidator.class
+com/capitanperegrina/common/modelo/validator/ParamValidator.class
+com/capitanperegrina/common/ui/adapter/ParamsAdapter.class

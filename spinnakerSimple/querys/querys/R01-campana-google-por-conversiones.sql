@@ -1,0 +1,1 @@
+DELETE FROM params WHERE id_param = 'googleAds';

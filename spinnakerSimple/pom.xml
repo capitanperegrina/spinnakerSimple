@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.spinnakersimple</groupId>
+	<artifactId>spinnakersimple</artifactId>
+	<version>1.12</version>
+	<packaging>pom</packaging>
+	<name>spinnakersimple</name>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<com.capitanperegrina.common.version>1.6</com.capitanperegrina.common.version>
+		<com.spinnakersimple.version>${project.version}</com.spinnakersimple.version>
+		<spring.version>4.3.9.RELEASE</spring.version>
+	</properties>
+	 
+	<modules>
+		<module>spinnakerSimple-api</module>
+		<module>spinnakerSimple-impl</module>
+		<module>spinnakerSimple-bin</module>
+		<module>spinnakerSimple-web</module>
+	</modules>
+	
+	<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-eclipse-plugin</artifactId>
+                <version>2.10</version>
+                <configuration>
+                    <downloadSources>true</downloadSources>
+                    <downloadJavadocs>true</downloadJavadocs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+	<dependencyManagement>
+	
+		<dependencies>
+		
+			<dependency>
+				<groupId>com.spinnakersimple</groupId>
+				<artifactId>spinnakersimple-api</artifactId>
+				<version>${com.spinnakersimple.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>com.spinnakersimple</groupId>
+				<artifactId>spinnakersimple-impl</artifactId>
+				<version>${com.spinnakersimple.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>com.spinnakersimple</groupId>
+				<artifactId>spinnakersimple-web</artifactId>
+				<version>${com.spinnakersimple.version}</version>
+			</dependency>
+
+			<dependency>
+			    <groupId>com.capitanperegrina.common</groupId>
+			    <artifactId>utils-lib</artifactId>
+			    <version>${com.capitanperegrina.common.version}</version>
+			</dependency>  
+
+			<dependency>
+				<groupId>com.capitanperegrina.common</groupId>
+				<artifactId>base-lib</artifactId>
+				<version>${com.capitanperegrina.common.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.capitanperegrina.common</groupId>
+				<artifactId>general-model-lib</artifactId>
+				<version>${com.capitanperegrina.common.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>com.capitanperegrina.common</groupId>
+				<artifactId>i18n-lib</artifactId>
+				<version>${com.capitanperegrina.common.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>com.capitanperegrina.common</groupId>
+				<artifactId>social-lib</artifactId>
+				<version>${com.capitanperegrina.common.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>joda-time</groupId>
+				<artifactId>joda-time</artifactId>
+				<version>2.10.1</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>commons-fileupload</groupId>
+				<artifactId>commons-fileupload</artifactId>
+				<version>1.2.2</version>
+			</dependency>			
+
+			<dependency>
+				<groupId>com.martiansoftware</groupId>
+				<artifactId>jsap</artifactId>
+				<version>2.1</version>
+			</dependency>
+		
+			<dependency>
+				<groupId>commons-dbcp</groupId>
+				<artifactId>commons-dbcp</artifactId>
+				<version>1.4</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>jstl</groupId>
+				<artifactId>jstl</artifactId>
+				<version>1.2</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>taglibs</groupId>
+				<artifactId>standard</artifactId>
+				<version>1.1.2</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.bouncycastle</groupId>
+				<artifactId>bcprov-jdk16</artifactId>
+				<version>1.46</version>
+			</dependency>
+
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>5.1.47</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.apache.tiles</groupId>
+				<artifactId>tiles-extras</artifactId>
+				<version>3.0.1</version>
+			</dependency>
+		
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-log4j12</artifactId>
+				<version>1.5.2</version>
+			</dependency>
+	
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			
+			<dependency>
+			    <groupId>com.google.code.gson</groupId>
+			    <artifactId>gson</artifactId>
+			    <version>2.8.5</version>
+			</dependency>
+
+		</dependencies>
+
+	</dependencyManagement>
+			
+	<url>http://www.spinnakersimple.com</url>
+	<description>Módulo raiz</description>
+</project>
+

@@ -1,0 +1,14 @@
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/entidad/tabla/IdiomasPOJO.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/entidad/tabla/DivisasPOJO.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/common/exceptions/IdiomaNoExisteException.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/rowmappers/impl/tabla/DivisasRowMapper.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/common/basebeans/I18nBaseSingleton.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/rowmappers/impl/tabla/PaisesRowMapper.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/util/Divisas.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/util/Paises.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/dao/impl/tabla/IdiomasDao.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/util/Idiomas.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/dao/impl/tabla/PaisesDao.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/dao/impl/tabla/DivisasDao.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/rowmappers/impl/tabla/IdiomasRowMapper.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/i18n-lib/src/main/java/com/capitanperegrina/i18n/modelo/entidad/tabla/PaisesPOJO.java

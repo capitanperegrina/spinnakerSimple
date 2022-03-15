@@ -1,0 +1,136 @@
+.float-izda {
+	float: left;
+}
+
+.float-dcha, .dcha {
+	float: right;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.separa{
+	padding-top:15px !important;
+}
+
+.precio{
+	font-size:1.5em !important;
+	color:#980000;
+	font-weight: bold; 
+	float:left;
+}
+
+.titulovela {
+	font-size: 24px;
+    color: #337ab7;	
+}
+
+
+.medidasLabel {
+	float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 50%;
+}
+
+.medidas {
+	float: left;
+	color: #c7630e;
+    font-size: 1.2em;
+    padding-right: 1em;
+}
+
+.ancho100{
+	width:100% !important;
+}
+
+.ancho150{
+	width:150% !important;
+}
+
+#ventanaModal {
+	margin-left: auto;
+	margin-rigth: auto;
+	top: 50px;	
+}
+
+.btn-sel-tipo-barco {
+	width: 13em;
+	padding: 2em 2em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#divSelectorTipoBarco {
+	display: none;
+}
+
+.btn-sel-clase-vela-ligera {
+	width: 100px;
+    height: 70px;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.btn-29er                     { background-image:url(../imagenes/logosTipoBarco/29er.png);        background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-420                      { background-image:url(../imagenes/logosTipoBarco/420.png);         background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-470                      { background-image:url(../imagenes/logosTipoBarco/470.png);         background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-49er                     { background-image:url(../imagenes/logosTipoBarco/49er.png);        background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-cadete                   { background-image:url(../imagenes/logosTipoBarco/cadete.png);      background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-catamaran                { background-image:url(../imagenes/logosTipoBarco/catamaran.png);   background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-europe                   { background-image:url(../imagenes/logosTipoBarco/europe.png);      background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-finn                     { background-image:url(../imagenes/logosTipoBarco/finn.png);        background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-laser                    { background-image:url(../imagenes/logosTipoBarco/laser.png);       background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-laser47                  { background-image:url(../imagenes/logosTipoBarco/laser47.png);     background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-laserRadial              { background-image:url(../imagenes/logosTipoBarco/laserRadial.png); background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-optimist                 { background-image:url(../imagenes/logosTipoBarco/optimist.png);    background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-patinAVela               { background-image:url(../imagenes/logosTipoBarco/patinAVela.png);  background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-snipe                    { background-image:url(../imagenes/logosTipoBarco/snipe.png);       background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-soling                   { background-image:url(../imagenes/logosTipoBarco/soling.png);      background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-vaurien                  { background-image:url(../imagenes/logosTipoBarco/vaurien.png);     background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+
+
+.oculto {
+	display: none;
+}
+
+/** GEAR LOADING  --------------------------------------------------------------------------------------------- **/
+
+.content {
+	position: relative;
+}
+
+.loadingOverlay {
+	position: absolute;
+	left: 0; 
+	top: 0; 
+	right: 0; 
+	bottom: 0;
+	z-index: 999;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.loadingOverlay-content {
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #555;
+}
+
+.loadingOverlay-content p {
+	font-size: 2em;
+	color: #555;
+}
+
+.medidaImgWrap {
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+	width: 350px;	
+}

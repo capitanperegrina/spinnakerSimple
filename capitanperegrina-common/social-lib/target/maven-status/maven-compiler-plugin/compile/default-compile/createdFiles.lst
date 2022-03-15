@@ -1,0 +1,12 @@
+com/capitanperegrina/social/instagram/ClienteInstagram.class
+com/capitanperegrina/social/instagram/InstagramException.class
+com/capitanperegrina/social/facebook/FacebookException.class
+com/capitanperegrina/social/instagram/InstagramClientConfiguration.class
+com/capitanperegrina/social/facebook/FacebookClientFactory.class
+com/capitanperegrina/social/instagram/InstagramClientFactory.class
+com/capitanperegrina/social/facebook/ClienteFacebook.class
+com/capitanperegrina/social/twitter/ClienteTwitter.class
+com/capitanperegrina/social/facebook/restfb/FacebookConnector.class
+com/capitanperegrina/social/twitter/TwitterClientConfiguration.class
+com/capitanperegrina/social/twitter/TwitterClientFactory.class
+com/capitanperegrina/social/facebook/FacebookClientConfiguration.class

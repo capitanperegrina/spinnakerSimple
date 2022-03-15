@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.capitanperegrina.common</groupId>
+	<artifactId>social-lib</artifactId>
+	<packaging>jar</packaging>
+	<name>social-lib</name>
+
+	<parent>
+		<groupId>com.capitanperegrina</groupId>
+		<artifactId>common</artifactId>
+        <version>1.6</version>
+	</parent>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.capitanperegrina.common</groupId>
+			<artifactId>base-lib</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.capitanperegrina.common</groupId>
+			<artifactId>general-model-lib</artifactId>
+		</dependency>
+
+		<dependency>
+    		<groupId>org.twitter4j</groupId>
+    		<artifactId>twitter4j-core</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.brunocvcunha.instagram4j</groupId>
+			<artifactId>instagram4j</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.restfb</groupId>
+		    <artifactId>restfb</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.2</version>
+				<configuration>
+                    <debug>true</debug>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources> 
+	</build>
+
+</project>

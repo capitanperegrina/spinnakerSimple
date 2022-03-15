@@ -1,0 +1,684 @@
+body {
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+h2{
+	font-size:2em;
+}
+h2.lnkAnuncio {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+h3{
+	font-size:1.5em;
+}
+h3.lnkAnuncio {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.container-fluid {
+	padding-bottom:15px;
+	background-color: #ededed;
+}
+@media (max-width: 1025px) {
+	label {
+	  font-size:.8em;
+	}
+}
+@media (min-width: 1000px) {
+	.container-fluid {
+	  padding-right: 150px;
+	  padding-left: 150px;
+	}
+}
+@media (min-width: 768px) and (max-width:999px) {
+	.container-fluid {
+	  padding-right: 50px;
+	  padding-left: 50px;
+	}
+}
+.navbar-static-top {
+  margin-bottom: 0px;
+}
+.noborde{
+	padding: 0px !important;
+}
+.anchototal{
+	width:100%;
+}
+.navbar{
+	text-transform: uppercase;
+	position: static;
+}
+.navbar-default{
+	background-color:#ffffff;
+}
+.navbar-nav > li > a:hover{
+	background-color: #C7620F !important;
+	color:#ffffff !important;
+}
+.logo{
+	/*background: #92b0b7; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(bottom,rgba(146, 176, 183, 0),rgba(146, 176, 183,1)); /*Safari 5.1-6*/
+	/*background: -o-linear-gradient(top,rgba(146, 176, 183,0),rgba(146, 176, 183,1)); /*Opera 11.1-12*/
+	/*background: -moz-linear-gradient(top,rgba(146, 176, 183,0),rgba(146, 176, 183,1)); /*Fx 3.6-15*/
+ 	/*background: linear-gradient(to top, rgba(146, 176, 183,0), rgba(146, 176, 183,1)); /*Standard*/
+}
+
+.pie{
+	padding-top:60px;
+	background: #ededed; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(bottom,rgba(237, 237, 237, 0),rgba(237, 237, 237,1)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(top,rgba(237, 237, 237,0),rgba(237, 237, 237,1)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(top,rgba(237, 237, 237,0),rgba(237, 237, 237,1)); /*Fx 3.6-15*/
+ 	background: linear-gradient(to top, rgba(237, 237, 237,0), rgba(237, 237, 237,1)); /*Standard*/
+ 	margin-bottom:50px;
+ 	color:#959595;
+}
+.rojo{
+	color: #dd0000 !important;
+}
+.separador{
+	height:40px;
+	background-color: #ededed;
+}
+.img-centrada{
+	display:block;
+	margin:0 auto 0 auto;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  min-height: 650px;
+/*  margin-bottom: 60px;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  min-height: 650px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 650px;
+}
+.btn-compraventa{
+	color:#ffffff;
+	background: #030427;
+	border-color:#030427;
+	font-size:1.8em;
+}
+.btn-compraventa:hover{
+	color:#ffffff;
+	background: #141473;
+}
+
+.medidasLabel {
+	float: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 50%;
+}
+
+.medidas {
+	float: left;
+	color: #c7630e;
+    font-size: 1.2em;
+    padding-right: 1em;
+}
+
+.miniMedidasLabel {
+	float: left;
+    font-weight: bold;
+    font-size: 1em;
+    padding-right: .5em;
+}
+
+.miniMedidas {
+	float: left;
+	color: #c7630e;
+    font-size: 1em;
+    padding-right: 1em;
+}
+
+.anchototal{
+	width:100%;
+}
+.titulovela a{
+	font-size:1em !important;
+}
+.precio{
+	font-size:1.5em !important;
+	color:#980000;
+	font-weight: bold; 
+	float:left;
+}
+.fondogris{
+	background-color: #ededed;
+}
+.thumbnail{
+	border: none;
+	cursor:pointer;
+}
+.enlaceboton {    
+	float:right;
+	font-family: verdana, arial, sans-serif; 
+   font-size: 10pt; 
+   padding: 4px; background: #92b0b7; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(bottom,rgba(146, 176, 183, 1),rgba(146, 176, 183,0)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(top,rgba(146, 176, 183,1),rgba(146, 176, 183,0)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(top,rgba(146, 176, 183,1),rgba(146, 176, 183,0)); /*Fx 3.6-15*/
+ 	background: linear-gradient(to top, rgba(146, 176, 183,1), rgba(146, 176, 183,0)); /*Standard*/
+   color: #0000aa; 
+   text-decoration: none; 
+   border: 1px solid #000000;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+   padding: 5px 10px;
+   cursor:pointer;
+} 
+.enlaceboton:link, 
+.enlaceboton:visited { 
+   border: 1px solid #000000;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+   padding: 5px 10px;
+} 
+.enlaceboton:hover {
+	border: 1px solid #000000;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+}		
+.izda{
+	float:left;
+}
+.dcha{
+	float:right;
+}
+.separa{
+	padding-top:15px !important;
+}
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+.column-left {
+    background-color: rgba(146, 176, 183, 0.9);
+    border: 1px solid #D2D2D2;
+    border-radius: 8px 8px 8px 8px;
+    float: left;
+    position: fixed;
+    min-height: 225px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    z-index:1000;
+    visibility:hidden;
+}
+.formovil{
+    display:none;
+}
+@media (max-width: 1023px) {
+	.formovil{
+	    display:block;
+	}
+	.enlaceboton{
+		visibility: hidden;
+	}
+}
+.ancho100{
+	width:100% !important;
+}
+.ancho90{
+	width:90% !important;
+}
+.ancho50{
+	width:50% !important;
+}
+.ancho66{
+	width:66% !important;
+}
+.ancho33{
+	width:33% !important;
+}
+
+.alto250 img{
+	height:auto !important;
+	width:100% !important;
+}
+@media (min-width: 768px) and (max-width:999px) {
+	.alto250 img{
+		height:250px !important;
+	}
+
+}
+.fondoblanco{
+/*	background-color:#EEEEEE !important;*/
+	margin-top:10px;
+	padding:10px;
+	width:100%;
+/*	border: 1px solid #CCCCCC;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;*/
+   font-weight: normal;;
+}
+.crop{
+ float:left;
+ position:relative;
+ width:100%;
+ height:210px;
+ border:1px solid #ccc;
+ margin-bottom:10px! important;
+ }
+.crop p{
+ margin:0;
+ position:absolute;
+ clip:rect(0px auto 210px 0px); /* Agujero rectángulo de medida específica */
+ }
+
+ .errorFormulario {
+ color: #ff2222;
+ font-weitgh: bold;
+ }
+ 
+ 
+ .tabUsuario {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: #ededed;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tabUsuario button {
+    background-color: #e7e7e7;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tabUsuario button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabUsuario button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabUsuarioContent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+@media (min-width: 750px) {
+	.cabeceraLogo {
+		position: relative;	
+	}
+	
+	.cabeceraLogoBarraMenu {
+		left: 0;  
+		top: 0; 
+		right: 0;  
+		bottom: 0; 
+		margin: auto; 
+		position: absolute;
+	}
+}
+
+@media (max-width: 750px) {
+	.cabeceraLogo {
+	}
+
+	.cabeceraLogo .barraMenu{
+	}
+}
+
+.punteroEnlace {
+	cursor:pointer;
+}
+
+.enlaceIdioma {
+	padding-left: 10px !important; 
+	padding-right: 10px !important;
+}
+
+.contenedorComments {
+    position: relative;
+    text-align: center;
+	margin-left: 10px; 
+	margin-right: 10px;
+}
+
+.contenedorComments img {
+	/* width:100%; */
+	margin-top:5px;
+}
+
+
+.textoComments {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#tablaAnuncios {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tablaAnuncios tr {
+	height: 40px;
+}
+
+@media (max-width: 750px) {
+	.g-recaptcha {
+		transform:scale(0.66) !important;
+	    transform-origin:0 0 !important;
+	}
+	
+	.ocultarColumnaEnMovil {
+		display: none;
+	}
+	
+	.columnaTitulo {
+		width: 10em;
+	}
+	
+	.columnaTipoVela {
+		width: 10em;
+	}
+	
+	.columnaMedidas {
+		width: 5em;
+	}
+	
+	.columnaComentarios {
+		width: 48px;
+	}
+	
+	.columnaBotones {
+		width: 110px;
+	}
+}
+
+@media (min-width: 750px) {
+	.ocultarColumnaEnMovil {
+	}	
+	
+	.columnaTitulo {
+		width: 15em;
+	}
+	
+	.columnaTipoVela {
+		width: 10em;
+	}
+	
+	.columnaMedidas {
+		width: 5em;
+	}
+	
+	.columnaComentarios {
+		width: 48px;
+	}
+	
+	.columnaBotones {
+		width: 110px;
+	}
+}
+
+.centrado {
+    text-align: center !important;
+}
+
+.izquierda {
+    text-align: left !important;
+}
+
+.derecha {
+    text-align: right !important;
+}
+
+/* --------------- COOKIES --------------- */
+
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+
+#infobox3 {
+    margin: auto;
+    position: bottom;
+    top: 0px;
+    width: 100%;
+    text-align:center;
+    background-color: #eeeeee;
+}
+
+#infobox3 p {
+    padding: 20px;
+    font-size:1em;
+    text-align:center;
+}
+
+#infobox3 p a {
+    margin-right:5px;
+    text-decoration: underline;
+}
+
+.tabla-cookies {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tabla-cookies .titulo {
+	background-color: #135a97;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+.tabla-cookies .descripcion {
+	padding: 5px;
+}
+
+.tabla-cookies .encabezado {
+	background-color: #337ab7;
+	color: white;
+	padding: 5px;
+}
+
+.tabla-cookies .contenido {
+	padding: 5px;
+}
+
+.estadoAnuncio0 {
+	color: red !important;	
+}
+
+.estadoAnuncio1 {
+	color: #5cb85c !important;
+}
+
+.estadoAnuncio2 {
+	color: black !important;	
+}
+
+#ventanaModal {
+	margin-left: auto;
+	margin-rigth: auto;
+	top: 50px;	
+}
+
+.btn-sel-tipo-barco {
+	width: 13em;
+	padding: 2em 2em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#divSelectorTipoBarco {
+	display: none;
+}
+
+.btn-sel-clase-vela-ligera {
+	width: 100px;
+    height: 70px;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.btn-29er                     { background-image:url(../imagenes/logosTipoBarco/29er.png);        background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-420                      { background-image:url(../imagenes/logosTipoBarco/420.png);         background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-470                      { background-image:url(../imagenes/logosTipoBarco/470.png);         background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-49er                     { background-image:url(../imagenes/logosTipoBarco/49er.png);        background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-cadete                   { background-image:url(../imagenes/logosTipoBarco/cadete.png);      background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-catamaran                { background-image:url(../imagenes/logosTipoBarco/catamaran.png);   background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-europe                   { background-image:url(../imagenes/logosTipoBarco/europe.png);      background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-finn                     { background-image:url(../imagenes/logosTipoBarco/finn.png);        background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-laser                    { background-image:url(../imagenes/logosTipoBarco/laser.png);       background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-laser47                  { background-image:url(../imagenes/logosTipoBarco/laser47.png);     background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-laserRadial              { background-image:url(../imagenes/logosTipoBarco/laserRadial.png); background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-optimist                 { background-image:url(../imagenes/logosTipoBarco/optimist.png);    background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-patinAVela               { background-image:url(../imagenes/logosTipoBarco/patinAVela.png);  background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-snipe                    { background-image:url(../imagenes/logosTipoBarco/snipe.png);       background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-soling                   { background-image:url(../imagenes/logosTipoBarco/soling.png);      background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-vaurien                  { background-image:url(../imagenes/logosTipoBarco/vaurien.png);     background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+.btn-otros                    { background-image:url(../imagenes/logosTipoBarco/otros.png);       background-repeat:no-repeat;    vertical-align: bottom;  background-position: center center; }
+
+.modal-body {
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
+}
+
+.separadorCabecera a {
+	color: #777;
+}
+
+.oculto {
+	display: none;
+}
+
+/** GEAR LOADING  --------------------------------------------------------------------------------------------- **/
+
+.content {
+	position: relative;
+}
+
+.loadingOverlay {
+	position: absolute;
+	left: 0; 
+	top: 0; 
+	right: 0; 
+	bottom: 0;
+	z-index: 999;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.loadingOverlay-content {
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #555;
+}
+
+.loadingOverlay-content p {
+	font-size: 2em;
+	color: #555;
+}
+
+.medidaImgWrap {
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+	width: 350px;	
+}
+
+
+/** SOCIAL BUTTONS -------------------------------------------------------------------------------------------- **/
+
+.divSocialButtons {
+	padding-bottom: 2em;
+	text-align: center;	
+}
+
+.btnSocial {
+    padding: 1em;
+    font-size: 1.3em;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnSocial:hover {
+    opacity: 0.7;
+}
+
+.btnSocial-fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.btnSocial-fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+
+.btnSocial-fa-whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+/** ----------------------------------------------------------------------------------------------------------- **/
+
+.anuncioExtracto {
+	min-height: 60px;
+}
+
+.anuncioEstadisticas {
+	font-size: .7em;
+}

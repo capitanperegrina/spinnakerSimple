@@ -1,0 +1,1 @@
+INSERT INTO params VALUES('googleAds', 'S', 'N', 'java.lang.Boolean', 'B', 1, NOW(), 1, NOW());

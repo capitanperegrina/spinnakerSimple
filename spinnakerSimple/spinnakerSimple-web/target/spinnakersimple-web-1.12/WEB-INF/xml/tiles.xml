@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="basica" template="/WEB-INF/jsp/plantilla/basica.jsp">
+        <put-attribute name="menu" value="/WEB-INF/jsp/plantilla/basica/menu.jsp" />
+        <put-attribute name="contenido" value="/WEB-INF/jsp/plantilla/basica/contenido.jsp"/>
+        <put-attribute name="pie" value="/WEB-INF/jsp/plantilla/basica/pie.jsp" />
+        <put-attribute name="javascript" value="/WEB-INF/jsp/plantilla/basica/javascript.jsp" />
+    </definition>
+
+	<definition name="error" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/comun/error.jsp"/>
+	</definition>
+    
+	<definition name="mensaje" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/comun/mensaje.jsp"/>
+	</definition>
+   
+    <!-- PRINCIPAL -->
+	<definition name="principal" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/principal.jsp"/>
+	</definition>
+	
+	<definition name="loginForm" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/loginForm.jsp"/>
+	</definition>
+	
+	<definition name="signUpForm" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/signUpForm.jsp"/>
+	</definition>
+	
+	<definition name="elPerfil" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/elPerfil.jsp"/>
+	</definition>
+	
+	<definition name="resetPassRequest" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/resetPassRequest.jsp"/>
+	</definition>
+	
+	<definition name="resetPassForm" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/resetPassForm.jsp"/>
+	</definition>
+	
+	<definition name="cambioPassForm" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/cambioPassForm.jsp"/>
+	</definition>
+   
+    <!-- EMPRESA -->
+    <definition name="empresa" extends="basica">
+        <put-attribute name="contenido" value="/WEB-INF/jsp/empresa.jsp"/>
+    </definition>
+    
+    <!-- AGRADECIMIENTOS -->
+    <definition name="agradecimientos" extends="basica">
+        <put-attribute name="contenido" value="/WEB-INF/jsp/agradecimientos.jsp"/>
+    </definition>
+	
+	<!-- LEGAL -->
+	<definition name="politicaCookies" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/politicaCookies.jsp"/>
+	</definition>
+
+	<definition name="politicaPrivacidad" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/politicaPrivacidad.jsp"/>
+	</definition>
+
+	<definition name="terminosCondiciones" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/terminosCondiciones.jsp"/>
+	</definition>
+
+    <!-- COMPRAR VELA -->
+	<definition name="comprarVela" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/comprarVela.jsp"/>
+	</definition>
+
+    <!-- VENDER VELA -->
+	<definition name="venderVela" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/venderVela.jsp"/>
+	</definition>
+	
+	<!-- VER VELA -->
+	<definition name="verVela" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/verVela.jsp"/>
+	</definition>
+	
+	<!-- CONTACTO -->
+	<definition name="contacto" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/contacto.jsp"/>
+	</definition>
+
+    <!-- LEGAL -->
+	<definition name="legal" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/legal.jsp"/>
+	</definition>
+	
+	
+	<!-- PRIVADO -->
+
+	<definition name="misAnuncios" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/misAnuncios.jsp"/>
+	</definition>
+	
+	<definition name="miAnuncioMod" extends="basica">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/miAnuncioMod.jsp"/>
+	</definition>
+	
+    <definition name="comprarVelaAjax" template="/WEB-INF/jsp/ajax/resultadosBusqueda.jsp"/>
+    
+    <definition name="edicionFotografias" template="/WEB-INF/jsp/ajax/edicionFotografias.jsp"/>
+    
+    
+    
+    <!-- ADMIN -->
+    
+    <definition name="admin" template="/WEB-INF/jsp/plantilla/admin.jsp">
+		<put-attribute name="menu" value="/WEB-INF/jsp/plantilla/admin/menu.jsp" />
+		<put-attribute name="contenido" value="/WEB-INF/jsp/plantilla/admin/contenido.jsp" />
+    </definition>
+    
+	<definition name="adminDashboard" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminDashboard.jsp" />
+	</definition>
+	
+	<definition name="adminAnuncios" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminAnuncios.jsp" />
+	</definition>
+	
+	<definition name="adminMensajes" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminMensajes.jsp" />
+	</definition>
+	
+	<definition name="adminElPerfil" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminElPerfil.jsp" />
+	</definition>
+	
+	<definition name="adminVerVela" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminVerVela.jsp" />
+	</definition>
+	
+	<definition name="adminEditarVela" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminEditarVela.jsp" />
+	</definition>
+	
+	<definition name="adminEdicionFotografias" template="/WEB-INF/jsp/admin/ajax/adminEdicionFotografias.jsp"/>
+	
+	<definition name="adminAnunciosAjax" template="/WEB-INF/jsp/admin/ajax/adminAnunciosAjax.jsp"/>
+	
+	<definition name="adminUsuarios" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminUsuarios.jsp" />
+	</definition>
+	
+	<definition name="adminVerUsuario" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminVerUsuario.jsp" />
+	</definition>
+	
+	<definition name="adminUsuariosAjax" template="/WEB-INF/jsp/admin/ajax/adminUsuariosAjax.jsp"/>
+
+	<definition name="adminMensajes" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminMensajes.jsp" />
+	</definition>
+	
+	<definition name="adminMensajesAjax" template="/WEB-INF/jsp/admin/ajax/adminMensajesAjax.jsp"/>
+
+	<definition name="adminParametrizacion" extends="admin">
+		<put-attribute name="contenido" value="/WEB-INF/jsp/admin/adminParametrizacion.jsp" />
+	</definition>
+	
+	
+	
+	
+
+</tiles-definitions>

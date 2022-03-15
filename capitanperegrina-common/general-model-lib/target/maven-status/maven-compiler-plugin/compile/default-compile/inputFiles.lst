@@ -1,0 +1,16 @@
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/ui/bean/ParamsUI.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/entidad/tabla/SocialPOJO.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/entidad/tabla/ParamsPOJO.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/servicios/impl/ParamsServiceImpl.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/validator/impl/URLParamValidator.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/ui/adapter/ParamsAdapter.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/dao/ParamsDao.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/validator/impl/BooleanParamValidator.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/entidad/tabla/pk/ParamsPKPOJO.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/validator/impl/MailParamValidator.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/dao/SocialDao.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/dao/rowmapper/SocialRowMapper.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/servicios/ParamsService.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/validator/ParamValidator.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/dao/rowmapper/ParamsRowMapper.java
+/Users/carlosnunezgarcia/projects/own/spinnakerSimple/capitanperegrina-common/general-model-lib/src/main/java/com/capitanperegrina/common/modelo/dao/impl/ParamsDaoImpl.java
